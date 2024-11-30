@@ -12,8 +12,8 @@ function signup() {
             showConfirmButton: false,
             timer: 1400
         });
-        document.getElementById('email').value = ''
-        document.getElementById('password').value = ''
+        email.innerHTML = "";
+        password.innerHTML = "";
     } else {
         Swal.fire({
             icon: "error",
@@ -38,8 +38,8 @@ function login() {
             showConfirmButton: false,
             timer: 1400
         });
-        document.getElementById('loginEmail').value = ''
-        document.getElementById('loginPassword').value = ''
+        loginEmail.innerHTML = "";
+        loginPassword.innerHTML = "";
     } else {
         Swal.fire({
             icon: "error",
