@@ -12,6 +12,8 @@ function signup() {
             showConfirmButton: false,
             timer: 1400
         });
+        document.getElementById('email').value = ''
+        document.getElementById('password').value = ''
     } else {
         Swal.fire({
             icon: "error",
@@ -36,6 +38,8 @@ function login() {
             showConfirmButton: false,
             timer: 1400
         });
+        document.getElementById('loginEmail').value = ''
+        document.getElementById('loginPassword').value = ''
     } else {
         Swal.fire({
             icon: "error",
